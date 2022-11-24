@@ -1,11 +1,21 @@
 import "../styles/globals.css";
 import React from "react";
-import Index from "../components";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Section from "../components/Section";
+import Principle from "../components/Principle";
+import Testimonial from "../components/Testimonial";
+import Footer from "../components/Footer";
 
 const Page = () => {
   return (
     <>
-      <Index />
+      <Hero />
+      <About />
+      <Section />
+      <Principle />
+      <Testimonial />
+      <Footer />
     </>
   );
 };

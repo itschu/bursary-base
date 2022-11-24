@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "../Button";
+import Button from "../Button/button";
 import "./hero.css";
 
-const Hero = () => {
+const Hero = ({ toggle }) => {
   return (
     <div className="hero px-3 sm:px-16 relative">
       <div className="text-gray-200">
@@ -21,8 +21,8 @@ const Hero = () => {
               nisi ut aliquip ex ea commodo consequat.
             </p>
             <div className="flex mt-10 justify-between md:justify-start md:gap-10">
-              <Button />
-              <Button />
+              <Button>start</Button>
+              <Button>Explore</Button>
             </div>
             <div className="hidden sm:flex absolute">
               <div className="flex items-center gap-5">
